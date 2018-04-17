@@ -12,7 +12,7 @@ function createTab(properties, callback) {
 }
 
 function removeTabs(tabs) {
-  return (_) => chrome.tabs.remove(tabs.map(tab => tab.id));
+  chrome.tabs.remove(tabs.map(tab => tab.id));
 }
 
 function createProperties(resultId, active) {
@@ -24,12 +24,12 @@ function createProperties(resultId, active) {
 
 function goToBookmarksManager(tabs, filtered, result) {
   if (tabs.length === 0) {
-    chrome.tabs.create(createProperties(result.id, true), removeTabs(filtered));
+    chrome.tabs.create(createProperties(result.id, true), (_) => removeTabs(filtered));
     return;
   }
 
   const [firstTab, ...restTabs] = tabs;
-  chrome.tabs.update(firstTab.id, createProperties(result.id, true), removeTabs(filtered));
+  chrome.tabs.update(firstTab.id, createProperties(result.id, true), (_) => removeTabs(filtered));
 
   const notActive = createProperties(result.id, false);
   restTabs.map(tab => chrome.tabs.update(tab.id, notActive));
