@@ -17,8 +17,8 @@ Quickly bookmark all tabs in the current window.
 # Installation
 
 1. Download and extract [Bookmark](https://github.com/Johj/bookmark/archive/master.zip).
-2. Navigate to chrome://extensions from your address bar.
-3. Enable Developer mode located in the top-right corner.
+2. Navigate to `chrome://extensions` from your address bar.
+3. Enable `Developer mode` located in the top-right corner.
 4. Drag-and-drop the extracted bookmark folder into the Extensions page.
 
 Happy Bookmarking!
