@@ -7,10 +7,6 @@ function isBlacklisted(url) {
   return blacklist.some(i => url.startsWith(i));
 }
 
-function createTab(properties, callback) {
-  chrome.tabs.create(properties, callback);
-}
-
 function removeTabs(tabs) {
   chrome.tabs.remove(tabs.map(tab => tab.id));
 }
