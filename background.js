@@ -25,7 +25,9 @@ function goToBookmarksManager(tabs, filtered, result) {
   }
 
   const [firstTab, ...restTabs] = tabs;
-  chrome.tabs.update(firstTab.id, createProperties(result.id, true), (_) => removeTabs(filtered));
+  chrome.tabs.update(firstTab.id, createProperties(result.id, true), (_) => {
+    chrome.windows.update(firstTab.windowId, { focused: true, }, (_) => removeTabs(filtered));
+  });
 
   const notActive = createProperties(result.id, false);
   restTabs.map(tab => chrome.tabs.update(tab.id, notActive));
