@@ -1,10 +1,8 @@
-<div align="center">
-  <p>
-    <img src="https://raw.githubusercontent.com/peterthehan/bookmark/master/assets/banner.png" title="Bookmark" />
-  </p>
+<div>
+  <img src="https://raw.githubusercontent.com/peterthehan/bookmark/master/assets/bookmark_128.png" title="Bookmark" />
 </div>
 
-# About
+# Bookmark
 
 Bookmark all tabs in the current window.
 
