@@ -8,7 +8,7 @@ Bookmark all tabs in the current window.
 
 <div align="center">
   <p>
-    <img src="https://raw.githubusercontent.com/peterthehan/bookmark/master/assets/demo.gif" title="Bookmark" />
+    <img src="https://raw.githubusercontent.com/peterthehan/bookmark/master/assets/demo.gif" title="Demo" />
   </p>
 </div>
 
