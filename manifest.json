@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Bookmark",
   "version": "1.0.0",
-  "description": "Quickly bookmark all tabs in the current window.",
+  "description": "Bookmark all tabs in the current window.",
   "icons": {
     "16": "assets/bookmark_16.png",
     "48": "assets/bookmark_48.png",

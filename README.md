@@ -6,7 +6,7 @@
 
 # About
 
-Quickly bookmark all tabs in the current window.
+Bookmark all tabs in the current window.
 
 <div align="center">
   <p>
