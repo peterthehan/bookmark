@@ -14,7 +14,7 @@ Bookmark all tabs in the current window.
 
 # Installation
 
-1. Download and extract [Bookmark](https://github.com/peterthehan/bookmark/archive/master.zip).
+1. Download and extract [Bookmark](https://github.com/peterthehan/bookmark/archive/refs/heads/main.zip).
 2. Navigate to `chrome://extensions` from your address bar.
 3. Enable `Developer mode` located in the top-right corner.
 4. Drag-and-drop the extracted folder into the Extensions page.
